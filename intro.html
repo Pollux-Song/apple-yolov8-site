@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>项目介绍 - YOLOv8苹果病虫害智能识别系统</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- 页面说明：项目背景、技术路线、模型效果 -->
+    <header class="site-header">
+      <div class="container navbar">
+        <div class="brand">
+          <div class="logo">AI</div>
+          <h1>YOLOv8苹果病虫害智能识别系统</h1>
+        </div>
+        <button class="nav-toggle" aria-label="切换导航">☰</button>
+        <ul class="nav-menu">
+          <li><a href="index.html">首页</a></li>
+          <li><a href="intro.html">项目介绍</a></li>
+          <li><a href="demo.html">功能演示</a></li>
+          <li><a href="team.html">团队成员</a></li>
+          <li><a href="contact.html">联系我们</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <h3>项目背景</h3>
+        <div class="panel" style="padding: 20px; margin-bottom: 24px">
+          <p style="margin: 0; line-height: 1.9; color: #647067">
+            苹果病虫害传统识别依赖人工经验，存在巡检效率低、误判率高、发现不及时等痛点。
+            本项目以YOLOv8为核心检测模型，结合标准化数据标注与推理部署流程，实现对果园常见病虫害的快速识别与辅助决策。
+          </p>
+        </div>
+
+        <h3>技术路线</h3>
+        <div class="flow" style="margin-bottom: 28px">
+          <div class="flow-step card"><strong>数据标注</strong><p>病斑/虫体框选与类别定义</p></div>
+          <div class="flow-step card"><strong>模型训练</strong><p>YOLOv8迭代训练与验证</p></div>
+          <div class="flow-step card"><strong>优化部署</strong><p>推理加速与轻量化处理</p></div>
+          <div class="flow-step card"><strong>应用落地</strong><p>网页端识别与结果反馈</p></div>
+        </div>
+
+        <h3>模型效果对比</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>方法</th>
+                <th>识别准确率</th>
+                <th>平均识别速度</th>
+                <th>部署复杂度</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>传统人工巡检</td>
+                <td>约 70% - 78%</td>
+                <td>慢（分钟级）</td>
+                <td>低</td>
+              </tr>
+              <tr>
+                <td>传统机器学习方法</td>
+                <td>约 82% - 87%</td>
+                <td>中</td>
+                <td>中</td>
+              </tr>
+              <tr>
+                <td>本项目 YOLOv8 模型</td>
+                <td>约 93% - 96%</td>
+                <td>快（秒级）</td>
+                <td>中低（已优化）</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        © 2026 基于YOLOv8的苹果病虫害智能识别系统 | 备案号：XXXXXX号（占位）
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

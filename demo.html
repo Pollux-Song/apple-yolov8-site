@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>功能演示 - YOLOv8苹果病虫害智能识别系统</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- 页面说明：上传识别交互 + 病虫害库展示 -->
+    <header class="site-header">
+      <div class="container navbar">
+        <div class="brand">
+          <div class="logo">AI</div>
+          <h1>YOLOv8苹果病虫害智能识别系统</h1>
+        </div>
+        <button class="nav-toggle" aria-label="切换导航">☰</button>
+        <ul class="nav-menu">
+          <li><a href="index.html">首页</a></li>
+          <li><a href="intro.html">项目介绍</a></li>
+          <li><a href="demo.html">功能演示</a></li>
+          <li><a href="team.html">团队成员</a></li>
+          <li><a href="contact.html">联系我们</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <h3>核心功能：图片上传识别（演示）</h3>
+        <div class="upload-box panel">
+          <input id="imageUpload" type="file" accept="image/*" />
+          <button id="identifyBtn" class="btn" style="margin-top: 12px">开始识别</button>
+          <div id="result" class="result">识别结果将显示在这里。</div>
+        </div>
+
+        <h3 style="margin-top: 32px">病虫害库</h3>
+        <div class="cards">
+          <article class="card">
+            <h4>腐烂病</h4>
+            <p>常导致枝干或果实组织坏死，扩散后影响果树产量和果品质量。</p>
+          </article>
+          <article class="card">
+            <h4>蚜虫</h4>
+            <p>吸食植物汁液，造成叶片卷曲、长势减弱，严重时影响坐果。</p>
+          </article>
+          <article class="card">
+            <h4>红蜘蛛</h4>
+            <p>多发生于高温干燥季节，叶片出现失绿斑点，光合作用下降。</p>
+          </article>
+          <article class="card">
+            <h4>斑点落叶病</h4>
+            <p>叶面形成病斑并提前脱落，削弱树势，影响当季和次年产量。</p>
+          </article>
+          <article class="card">
+            <h4>白粉病</h4>
+            <p>表面出现白色粉状物，导致叶果畸形，影响果实外观与商品性。</p>
+          </article>
+          <article class="card">
+            <h4>炭疽病</h4>
+            <p>果实常出现褐色病斑并逐步扩大，易引起采后腐烂与储运损失。</p>
+          </article>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        © 2026 基于YOLOv8的苹果病虫害智能识别系统 | 备案号：XXXXXX号（占位）
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/demo.js"></script>
+  </body>
+</html>
